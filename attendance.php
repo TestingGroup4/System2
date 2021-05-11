@@ -33,7 +33,7 @@ $num_days = cal_days_in_month(CAL_GREGORIAN, $current_month, $current_year);
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Inpasseringssystem</title>
+        <title>Närvarosystem</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -42,13 +42,16 @@ $num_days = cal_days_in_month(CAL_GREGORIAN, $current_month, $current_year);
     <body>
 
     <nav class="navbar navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">Inpasseringssystem</a>
+        <a class="navbar-brand" href="#">Närvarosystem</a>
         <ul class="nav nav-pills">
             <li class="nav-item">
-                <a href="attendance.php" class="nav-link active">Inpasseringslogg</a>
+                <a href="attendance.php" class="nav-link active">Närvaro</a>
             </li>
             <li class="nav-item">
-                <a href="users.php" class="nav-link">Registrerade Blippar</a>
+                <a href="users.php" class="nav-link">Användare</a>
+            </li>
+            <li class="nav-item">
+                <a href="index.php" class="nav-link">Startsida</a>
             </li>
         </ul>
     </nav>
