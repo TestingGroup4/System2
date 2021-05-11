@@ -45,19 +45,19 @@ $num_days = cal_days_in_month(CAL_GREGORIAN, $current_month, $current_year);
         <a class="navbar-brand" href="#">Närvarosystem</a>
         <ul class="nav nav-pills">
             <li class="nav-item">
-                <a href="attendance.php" class="nav-link active">Närvaro</a>
+                <a href="attendance.php" class="nav-link">Närvaro</a>
             </li>
             <li class="nav-item">
                 <a href="users.php" class="nav-link">Användare</a>
             </li>
             <li class="nav-item">
-                <a href="index.php" class="nav-link">Startsida</a>
+                <a href="index.php" class="nav-link active">Startsida</a>
             </li>
         </ul>
     </nav>
     <div class="container">
         <div class="row">
-            <h2>Inpassering</h2>
+            <h2>Närvaro</h2>
         </div>
         <table class="table table-striped table-responsive">
             <thead class="thead-dark">
