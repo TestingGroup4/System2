@@ -27,7 +27,7 @@ $users = $database->select("users", [
                 <a href="attendance.php" class="nav-link">Närvaro</a>
             </li>
             <li class="nav-item">
-                <a href="users.php" class="nav-link active">Användare</a>
+                <a href="users.php" class="nav-link">Användare</a>
             </li>
              <li class="nav-item">
                 <a href="index.php" class="nav-link active">Startsida</a>
