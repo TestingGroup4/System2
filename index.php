@@ -25,9 +25,9 @@ require 'common.php';
     </nav>
     <div class="container">
         <div class="col-md-6 order-md-1 text-center text-md-left pr-md-5">
-            <h1 class="mb-3">Valkommen,</h1>
+            <h1 class="mb-3">Välkommen,</h1>
             <p class="lead">
-                till Grupp 4:s RFID Inpasseringssystem.
+                till Grupp 4:s RFID Närvarosystem.
             </p>
             <div class="row mx-n2">
                 <div class="col-md px-2">
