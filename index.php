@@ -4,7 +4,7 @@ require 'common.php';
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Inpasseringssystem</title>
+        <title>Närvarosystem</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -13,13 +13,13 @@ require 'common.php';
     <body>
 
     <nav class="navbar navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">Inpasseringssystem</a>
+        <a class="navbar-brand" href="#">Närvarosystem</a>
         <ul class="nav nav-pills">
             <li class="nav-item">
-                <a href="attendance.php" class="nav-link">Visa Inpasseringslogg</a>
+                <a href="attendance.php" class="nav-link">Visa Närvaro</a>
             </li>
             <li class="nav-item">
-                <a href="users.php" class="nav-link active">Visa Registrerade Blippar</a>
+                <a href="users.php" class="nav-link">Visa Användare</a>
             </li>
         </ul>
     </nav>
@@ -31,10 +31,10 @@ require 'common.php';
             </p>
             <div class="row mx-n2">
                 <div class="col-md px-2">
-                    <a href="users.php" class="btn btn-lg btn-outline-secondary w-100 mb-3">Registrerade Blippar</a>
+                    <a href="users.php" class="btn btn-lg btn-outline-secondary w-100 mb-3">Användare</a>
                 </div>
                 <div class="col-md px-2">
-                    <a href="attendance.php" class="btn btn-lg btn-outline-secondary w-100 mb-3" >Inpasseringslogg</a>
+                    <a href="attendance.php" class="btn btn-lg btn-outline-secondary w-100 mb-3" >Närvaro</a>
                 </div>
             </div>
         </div>
