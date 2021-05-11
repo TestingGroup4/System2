@@ -1,2 +1,4 @@
-# attendance-system-frontend
-RFID Attendance system basic frontend script for our RFID attendance system tutorial.
+# närvarosystem-frontend
+Enkel frontend för vår RFID Närvarosystem.
+
+Thanks to Emmet from pimylifeup.com for providing the source code!
