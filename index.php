@@ -36,6 +36,9 @@ require 'common.php';
                 <div class="col-md px-2">
                     <a href="attendance.php" class="btn btn-lg btn-outline-secondary w-100 mb-3" >Närvaro</a>
                 </div>
+                <div class="col-md px-2">
+                    <a href="attendance2.php" class="btn btn-lg btn-outline-secondary w-100 mb-3" >Närvaro30</a>
+                </div>
             </div>
         </div>
     </div>
