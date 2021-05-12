@@ -8,6 +8,11 @@ $users = $database->select("users", [
 ]);
 
 //Check if we have a year passed in through a get variable, otherwise use the current year
+
+$start_days = date('j') - 1;
+if ($start_days <=0) { $start_days = 1; } $end_days = date('j');
+
+
 if (isset($_GET['year'])) {
     $current_year = int($_GET['year']);
 } else {
@@ -63,7 +68,7 @@ $num_days = cal_days_in_month(CAL_GREGORIAN, $current_month, $current_year);
                     <th scope="col">Namn</th>
                     <?php
                         //Generate headers for all the available days in this month
-                        for ( $iter = 1; $iter <= $num_days; $iter++) {
+                        for ( $iter = $start_days; $iter <= $end_days; $iter++) {
                             echo '<th scope="col" style="min-width:200px;max-width:300px;">' . $iter . '</th>';
                         }
                     ?>
@@ -77,7 +82,7 @@ $num_days = cal_days_in_month(CAL_GREGORIAN, $current_month, $current_year);
                         echo '<td scope="row">' . $user['name'] . '</td>';
 
                         //Iterate through all available days for this month
-                        for ( $iter = 1; $iter <= $num_days; $iter++) {
+                     for ( $iter = $start_days; $iter <= $end_days; $iter++) {
                             
                             //For each pass grab any attendance that this particular user might of had for that day
                             $attendance = $database->select("attendance", [
@@ -100,7 +105,7 @@ $num_days = cal_days_in_month(CAL_GREGORIAN, $current_month, $current_year);
                                 echo '</td>';
                             } else {
                                 //If there was nothing in the database notify the user of this.
-                                echo '<td class="table-secondary">No Data Available</td>';
+                                echo '<td class="table-secondary">Ingen Data</td>';
                             }
                         }
                         echo '</tr>';
@@ -109,4 +114,4 @@ $num_days = cal_days_in_month(CAL_GREGORIAN, $current_month, $current_year);
             </tbody>
         </table>
     </div>
-</html
+</html>
