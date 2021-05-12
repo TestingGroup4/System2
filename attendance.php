@@ -48,6 +48,9 @@ $num_days = cal_days_in_month(CAL_GREGORIAN, $current_month, $current_year);
                 <a href="attendance.php" class="nav-link">Närvaro</a>
             </li>
             <li class="nav-item">
+                <a href="attendance2.php" class="nav-link">Närvaro 30 Dagar</a>
+            </li>          
+            <li class="nav-item">
                 <a href="users.php" class="nav-link">Användare</a>
             </li>
             <li class="nav-item">
