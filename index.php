@@ -37,7 +37,7 @@ require 'common.php';
                     <a href="attendance.php" class="btn btn-lg btn-outline-secondary w-100 mb-3" >Närvaro</a>
                 </div>
                 <div class="col-md px-2">
-                    <a href="attendance2.php" class="btn btn-lg btn-outline-secondary w-100 mb-3" >Närvaro30</a>
+                    <a href="attendance2.php" class="btn btn-lg btn-outline-secondary w-100 mb-3" >Närvaro 30 dagar</a>
                 </div>
             </div>
         </div>
